@@ -15,6 +15,12 @@
     <script>
         var oInput = new sap.m.Input();
         oInput.placeAt("root");
+
+        var oNota = new sap.m.RatingIndicator();
+        oNota.placeAt("root").setValue(2);
+
+        var oSlider = new sap.m.oSlider();
+        oSlider.setValue(58).placeAt("root","first");
     </script>
 
 </head>
